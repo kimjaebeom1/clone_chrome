@@ -55,6 +55,16 @@ li {
   padding-top: 10px;
 }
 
+ul#todo-list span {
+  width: 600px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+ul#todo-list li {
+  display: flex;
+}
+
 li:before {
   padding: 5px;
 }
@@ -83,7 +93,11 @@ form#login-form.hidden {
 }
 
 #weather {
-  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 form#todo-form {
